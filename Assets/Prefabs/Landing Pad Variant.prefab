@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Landing Pad
       objectReference: {fileID: 0}
+    - target: {fileID: 5761948113659976311, guid: 9639431a7f4b3c5408e03744347d08b1, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     - target: {fileID: 6344723300045521239, guid: 9639431a7f4b3c5408e03744347d08b1, type: 3}
       propertyPath: m_RootOrder
       value: 0
