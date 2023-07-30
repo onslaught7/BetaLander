@@ -422,34 +422,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 381474943, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1068921244, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-      propertyPath: mainEngine
-      value: 
-      objectReference: {fileID: 8300000, guid: 7277138d542de8448bde115f47f331d5, type: 3}
-    - target: {fileID: 1904676644, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-      propertyPath: crash
-      value: 
-      objectReference: {fileID: 8300000, guid: f6d51f52222c13443ab02a713a4fc0fb, type: 3}
-    - target: {fileID: 1904676644, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-      propertyPath: success
-      value: 
-      objectReference: {fileID: 8300000, guid: 341036515da9b7246894042565fd4733, type: 3}
-    - target: {fileID: 1904676644, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-      propertyPath: LevelLoadDelay
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1904676652, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-      propertyPath: LevelLoadDelay
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3056306205489811724, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-      propertyPath: LevelLoadDelay
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3911836131965864867, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -460,7 +432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3911836131965864867, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.9
+      value: 2.24
       objectReference: {fileID: 0}
     - target: {fileID: 3911836131965864867, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
       propertyPath: m_LocalPosition.z
@@ -498,14 +470,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket Body
       objectReference: {fileID: 0}
-    - target: {fileID: 6797543703054563615, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-      propertyPath: LevelLoadDelay
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6797543703054563615, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-    - {fileID: 3056306205489811724, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
-    - {fileID: 1904676652, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd4f4b50e61bcb44821f2d42678f484, type: 3}
 --- !u!1001 &6864315340941522187
 PrefabInstance:
