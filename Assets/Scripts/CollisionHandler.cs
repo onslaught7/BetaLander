@@ -16,26 +16,31 @@ public class CollisionHandler : MonoBehaviour
     ParticleSystem particlesSystem;
 
     bool isTransitioning = false;
+    bool collisionDisabled = false;
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
     }
 
-    void update()
+    void Update()
     {
-        RespondToDebugKey();
+        RespondToDebugKeys();
     }
-    void RespondToDebugKey()
+    void RespondToDebugKeys()
     {
         if (Input.GetKeyDown(KeyCode.L))
         {
             LoadNextLevel();
         }
+        else if (Input.GetKeyDown(KeyCode.C))
+        {
+            collisionDisabled = !collisionDisabled;
+        }
     }
     void OnCollisionEnter(Collision other)
     {
-        if (isTransitioning)
+        if (isTransitioning || collisionDisabled)
         {
             return;
         }
